@@ -1,0 +1,41 @@
+!Colors
+!! Black
+*color0: #121212
+*color8: #474747
+!! Red
+*color1: #803232
+*color9: #982B2B
+*color5: #B22222
+*color13:#B22222
+!! Green
+*color2: #5B762F
+*color10:#89B83F
+!! Yellow
+*color3: #AA9943
+*color11: #EFEF60
+!! Blue
+*color4: #324C80
+*color12: #2B4F98
+!! Cyan
+*color6: #92B19E
+*color14: #A1CDCD
+!! White
+*color7: #FFFFFF
+*color15: #DEDEDE
+
+urxvt*font: xft:Dejavu Sans Mono:pixelsize=12
+urxvt*termname: rxvt
+urxvt*perl-ext-common: matcher
+urxvt*urlLauncher: google-chrome
+urxvt*matcher.button: 1
+urxvt*fading: 10
+urxvt*shading: 15
+urxvt*inheritPixmap: True
+urxvt*scrollBar: False
+urxvt*cutchars: `"()'*<>[]{|}
+urxvt*tintColor: #dfdfdf
+urxvt.cursorColor: #89B83F
+urxvt.pointerColor: #89B83F
+urxvt*background: #000000
+urxvt*foreground: #DEDEDE
+urxvt*termname: rxvt-256color
