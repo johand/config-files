@@ -2,14 +2,8 @@
 
 **clonar repositorio**
 
-<code>git clone git://github.com/johand/config-files.git</code>
+    git clone git://github.com/johand/config-files.git
 
-**instalar submodulos**
+**crear enlaces simbolicos**
 
-<code>cd config-files</code>
-
-<code>git submodule init && git submodule update</code>
-
-**ejecutar instalador**
-
-<code>./install.sh</code>
+    ln -s foo ~/.foo
