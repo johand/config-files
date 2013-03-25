@@ -23,10 +23,10 @@
 *color7: #FFFFFF
 *color15: #DEDEDE
 
-urxvt*font: xft:Dejavu Sans Mono:pixelsize=12
+#urxvt*font: xft:Dejavu Sans Mono:pixelsize=12
 urxvt*termname: rxvt
 urxvt*perl-ext-common: matcher
-urxvt*urlLauncher: google-chrome
+urxvt*url-launcher: firefox
 urxvt*matcher.button: 1
 urxvt*fading: 10
 urxvt*shading: 15
