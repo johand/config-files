@@ -1,8 +1,8 @@
-require 'irb/completion'
 require 'rubygems'
-require 'wirble'
-require 'ap'
-Wirble.init
+require 'irb/completion'
+require 'awesome_print'
+require 'wirb'
+Wirb.start
 Wirble.colorize
 IRB.conf[:AUTO_INDENT] = true
 IRB.conf[:PROMPT_MODE] = :SIMPLE
