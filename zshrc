@@ -45,6 +45,10 @@ zstyle ':completion::complete:*' use-cache 1
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
-#alias
+# alias
 alias e="emacs -nw"
 alias ec="emacsclient -t"
+
+# pg
+export PAGER=less
+export LESS="-iSx4 -FX"
