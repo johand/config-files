@@ -23,19 +23,39 @@
 *color7: #FFFFFF
 *color15: #DEDEDE
 
+
+!! fuentes
+
 #urxvt*font: xft:Dejavu Sans Mono:pixelsize=12
-urxvt*termname: rxvt
+urxvt*font: xft:ubuntu mono:pixelsize=15
+Xft.antialias: 1
+Xft.autohint: 1
+Xft.hinting: 1
+emacs.font: ubuntu mono
+
+
+!! general
+
+urxvt*termname: rxvt-256color
 urxvt*perl-ext-common: matcher
+urxvt.underlineURLs: true
 urxvt*url-launcher: firefox
 urxvt*matcher.button: 1
+urxvt*scrollBar: false
+urxvt*cutchars: `'"'()*<>[]{|}
+
+
+!! colores
+
 urxvt*fading: 10
 urxvt*shading: 15
-urxvt*inheritPixmap: True
-urxvt*scrollBar: False
-urxvt*cutchars: `"()'*<>[]{|}
+urxvt*inheritPixmap: true
 urxvt*tintColor: #dfdfdf
-urxvt.cursorColor: #89B83F
-urxvt.pointerColor: #89B83F
 urxvt*background: #000000
-urxvt*foreground: #DEDEDE
-urxvt*termname: rxvt-256color
+urxvt*foreground: #dedede
+
+
+!! cursor
+
+urxvt.cursorColor: #89b83f
+Xcursor.theme: Vanilla-DMZ
