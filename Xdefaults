@@ -26,7 +26,7 @@
 
 !! fuentes
 
-#urxvt*font: xft:Dejavu Sans Mono:pixelsize=12
+! urxvt*font: xft:Dejavu Sans Mono:pixelsize=12
 urxvt*font: xft:ubuntu mono:pixelsize=15
 Xft.antialias: 1
 Xft.autohint: 1
