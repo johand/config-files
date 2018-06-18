@@ -5,7 +5,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-export ZSH_THEME="cypher"
+export ZSH_THEME="terminalparty"
 
 # Set to this to use case-sensitive completion
 # export CASE_SENSITIVE="true"
@@ -21,7 +21,7 @@ export ZSH_THEME="cypher"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(screen git rbenv ruby)
+plugins=(git rbenv ruby)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -52,3 +52,9 @@ alias ec="emacsclient -t"
 # pg
 export PAGER=less
 export LESS="-iSx4 -FX"
+
+# n
+export N_PREFIX="$HOME/.n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"
+
+# tmux
+export TERM=tmux-256color
