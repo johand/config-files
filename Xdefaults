@@ -1,4 +1,5 @@
-!Colors
+! Colors
+
 !! Black
 *color0: #121212
 *color8: #474747
@@ -24,14 +25,19 @@
 *color15: #DEDEDE
 
 
-!! fuentes
+!! fonts
 
 ! urxvt*font: xft:Dejavu Sans Mono:pixelsize=12
-urxvt*font: xft:ubuntu mono:pixelsize=15
+urxvt*font: xft:ubuntu mono:size=12
+emacs.font: fira mono:size=14
+
+
+!! Xft
+
 Xft.antialias: 1
 Xft.autohint: 1
 Xft.hinting: 1
-emacs.font: ubuntu mono
+Xft.hintstyle: hintslight
 
 
 !! general
@@ -45,7 +51,7 @@ urxvt*scrollBar: false
 urxvt*cutchars: `'"'()*<>[]{|}
 
 
-!! colores
+!! colors
 
 urxvt*fading: 10
 urxvt*shading: 15
@@ -58,4 +64,4 @@ urxvt*foreground: #dedede
 !! cursor
 
 urxvt.cursorColor: #89b83f
-Xcursor.theme: Vanilla-DMZ
+! Xcursor.theme: Vanilla-DMZ
