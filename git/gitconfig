@@ -1,0 +1,8 @@
+[user]
+	name = Name
+	email = name@example.com
+[core]
+	editor = emacs
+	excludesfile = ~/.gitignore_global
+[commit]
+	template = ~/.git_template.txt
